@@ -1,0 +1,28 @@
+<div class="information_jeu">
+            <h3>À PROPOS DE CE JEU</h3>
+            <p>
+                En tant qu'homme ou femme échoué nu, en train de gelé et de mourir de faim sur une île mystérieuse, vous devez chasser, récolter, fabriquer des objets, faire pousser des plantes et construire des abris pour survivre. Utilisez vos compétences et votre ruse pour tuer, apprivoiser, faire accoupler et chevaucher des dinosaures et des créatures primitives vivant sur l'Arche, en faisant équipe avec des centaines de joueurs pour survivre, dominer et ... s'échapper !
+            </p>
+            <p>
+                Les fonctions suivantes sont présentes dans le jeu dès sa sortie. Nous avons de nombreux autres aspects et améliorations prévues pour la feuille de route à long terme du développement, et voici ce que vous allez vivre dès maintenant dans ARK:
+            </p>
+            <p>
+                APPRIVOISEZ, ENTRAINEZ, FAITES REPRODUIRE ET CHEVAUCHEZ LES DINOSAURES DANS UN ÉCOSYSTÈME VIVANT
+            </p>
+            <p>
+                Dinosaures, créatures, & élevage ! Plus de 50 espèces au début de l'accès anticipé et plus de 100 prévus pour la sortie finale - Ils peuvent être apprivoisé en utilisant un procédé de capture & affinité complexe, impliquant l'affaiblissement d'une créature sauvage en l'assommant pour qu'elle soit inconsciente et la soigner avec une alimentation appropriée. Une fois apprivoisée, vous pouvez donner des ordres à votre animal de compagnie, qui peut les suivre selon comment vous l'avez apprivoisé et entrainé. Ces animaux de compagnie, qui peuvent continuer à gagner en niveau et consommer de la nourriture, peuvent également transporter de l'inventaire et porter de l'équipement tels que des armures, transporter des proies à votre base selon leur force et les plus grands peuvent être montés et contrôlés ! Un ptérodactyle pour survoler les montagnes enneigées, soulever des alliés sur les murs ennemis, course à travers la jungle avec un groupe de rapaces, surgir dans une base ennemie à l'aide d'un gigantesque Brontosaure ou chasser des proies sur le dos d'un T-Rex qui fait rage ! Participer à un cycle de vie de l'écosystème dynamique avec sa propre hiérarchie prédateurs & proies, où vous êtes juste une créature parmi les nombreuses espèces qui luttent pour la domination et la survie. Les animaux de compagnie peut également se connecter avec le sexe opposé, reproduire sélectivement des générations successives, en utilisant un système de caractère basé sur l'héritage génétique recombinant. Ce processus comprend les bases d'oeufs d'incubation et les cycles de vie de gestation chez les mammifères ! Ou plus simplement, créer et élever des bébés Dino !
+            </p>
+            <p>
+                NOURRITURE, EAU, TEMPÉRATURE ET MÉTÉO
+            </p>
+        </div>
+        <div class="configuration_jeu_min">
+            <h3>CONFIGURATION REQUISE</h3>
+            <p>Système d'exploitation : Windows 7/8.1/10 (64-bit versions)</p>
+            <p>Processeur : Intel Core i5-2400/AMD FX-8320 or better</p>
+            <p>Mémoire vive : 8 GB de mémoire</p>
+            <p>Graphiques : NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better</p>
+            <p>DirectX : Version 10</p>
+            <p>Espace disque : 60 GB d'espace disque disponible</p>
+            <p>Notes supplémentaires : Requires broadband internet connection for multiplayer</p>
+        </div>

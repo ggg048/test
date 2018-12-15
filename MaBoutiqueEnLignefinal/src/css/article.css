@@ -1,0 +1,236 @@
+header{
+    background-image:none;
+    border: none;
+    height: auto;
+}
+a.link{
+    color: #e67e22;
+}
+main{
+    transform: translateY(0);
+}
+section{
+    margin-top: 60px;
+    background-color: rgba(21,21,21,0.6);
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 15px;
+}
+body{
+    background-image: url("../img/ark.jpg");
+}
+
+div h3{
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+.configuration_jeu_min{
+    margin-left: 20%;
+    padding: 20px;
+    letter-spacing: 1.5px;
+}
+.configuration_jeu_min p{
+    font-size: 1.2em;
+}
+.information_jeu{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.information_jeu p{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+.top_section{
+    background-color: rgba(21,21,21,0.5);
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-column-gap: 15px;
+}
+
+div.slider{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border: 3px solid rgba(0,0,0,0.5);
+
+}
+div.slides{
+    width: calc(500px * 3);
+    animation: AutoSlide_article 15s infinite;
+}
+div.slide{
+    float: left;
+}
+div.slides div img{
+    width: 500px;
+    height: 300px;
+}
+
+div.slide img{
+    width: 100%;
+}
+
+@keyframes AutoSlide_article {
+    0%, 10%, 20%{
+        transform: translateX(0);
+    }
+    33%, 43%, 53%{
+        transform: translateX(-500px);
+    }
+    66%, 76%, 83%{
+        transform: translateX(-1000px);
+    }
+}
+
+.actu_jeu h4{
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.actu_jeu p{
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 1.1em;
+    color: #eee;
+}
+.actu_jeu p.first{
+    margin-top: 20px;
+}
+.actu_jeu p.sub_info{
+    color: #bbb;
+}
+.actu_jeu p.sub_info span{
+    color: #e67e22;
+}
+
+section.achat_jeu{
+    margin-top: 80px;
+    width: 700px;
+}
+section.achat_jeu p.name{
+    background-color: rgba(21,21,21,0.6);
+    color: #fff;
+    font-size: 2em;
+    padding: 20px 20px;
+}
+
+.achat_jeu a{
+    color: #e67e22;
+    font-size: 1.5em;
+    background-color: rgb(21,21,21);
+    padding: 5px 15px;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
+    float: right;
+    margin-right: 15px;
+    transform: translateY(-50%);
+    transition: all .3s;
+}
+
+.achat_jeu a:hover{
+    background-color: #e67e22;
+    color: #fff;
+}
+
+
+section h4{
+    color: #fff;
+    font-size: 2em;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+section.a_propos p{
+    font-size: 1.3em;
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 1.2px;
+}
+
+.comment_champ{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(21,21,21,0.8);
+    resize: none;
+    padding: 5px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.comment_btn{
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    border-radius: 5px;
+    font-size: 1.3em;
+    transform: translateY(-50%);
+    transition: all .3s;
+}
+.comment_btn:hover{
+    color: #fff;
+    background-color: #e67e22;
+}
+
+.ancien_comment{
+    background: transparent;
+}
+div.comment{
+    box-shadow: 1px 1px 1px #bbb;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+div.comment p.author,
+div.comment p.date{
+    font-size: 1.3em;
+}
+div.comment p.author::before{
+    content: 'Auteur : ';
+    color: #bbb;
+}
+
+div.comment p.date::before{
+    content: 'Date de publication : ';
+    color: #bbb;
+}
+
+div.comment p.content{
+    font-size: 1.4em;
+    margin: 15px 20px;
+    border-top: 1px solid #fff;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1050px){
+    .top_section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-row: 1fr 1fr;
+        grid-row-gap: 15px;
+    }
+    section{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    div.slider{
+        margin: 0 auto;
+    }
+    .actu_jeu img{
+        display: none;
+    }
+}

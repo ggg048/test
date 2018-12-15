@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+body{
+    background: url("../img/ac_origins.jpg") no-repeat fixed content-box;
+    background-size: cover;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    background: transparent;
+    height: 600px;
+}
+
+header nav{
+    height: 66px;
+    width: 100%;
+    background-color: rgba(21,21,21,0.6);
+}
+.is-active{
+    color: #bbbbbb;
+}
+
+header nav ul{
+    float: right;
+    margin-right: 10%;
+}
+header nav ul li{
+    float: left;
+    line-height: 66px;
+    padding-left: 20px;
+    color: #fff;
+}
+header nav ul li a{
+    font-size: 1.3em;
+    transition: .3s;
+}
+header nav ul li a:hover{
+    color: #bbbbbb;
+}
+
+
+header nav ul li a img{
+    top: 10px;
+    margin-top: 15px;
+    transition: .3s;
+}
+header nav ul li a img:hover{
+    transform: translateY(5px);
+}
+header nav h1{
+    margin-left: 2%;
+    line-height: 66px;
+    font-size: 2em;
+    color: #eee;
+    float: left;
+}
+p.welcome-message,
+header h2{
+    display: inline-block;
+    margin-left: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(21,21,21,0.6);
+    margin-top: 120px;
+    color: #fff;
+    line-height: 66px;
+    font-size: 3em;
+
+}
+
+footer{
+    background-color: #000;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+footer p.copyright{
+    padding-top: 20px;
+}
